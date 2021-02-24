@@ -4,7 +4,7 @@ You can find the deployed project at www.theMentorConnector.net.
 
 ## Contributors
 
-|                                                            [Miley Wright](https://github.com/MileyWright)                                                            |                                                            [Toni Darden](https://github.com/Toniddarden)                                                             |                                                           [Chris Shockley](https://github.com/cishocksr)                                                           |                                            [Hector Valdez](https://github.com/Haloking1212)                                             |                                                              [Nick Gonzalez](https://github.com/NickGonzalez04)                                                               |
+|                                                            [Miley Wright](https://github.com/MileyWright)                                                            |                                                            [Toni Darden](https://github.com/Toniddarden)                                                             |                                                           [Chris Shockley](https://github.com/cishocksr)                                                           |                                            [Hector Valdez](https://github.com/Haloking1212)                                             |                                                            [Nick Gonzalez](https://github.com/NickGonzalez04)                                                            |
 | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | [<img src="https://avatars0.githubusercontent.com/u/50764974?s=460&u=e8c046e91f0c9abd9c39693bf028d9b0e85e43f3&v=4" width = "200" />](https://github.com/MileyWright) | [<img src="https://avatars1.githubusercontent.com/u/43283327?s=460&u=96942153e97025dfb2a4ee2484479f072812f513&v=4" width = "200" />](https://github.com/Toniddarden) | [<img src="https://avatars0.githubusercontent.com/u/52771915?s=460&u=6ed1182f5ab1b434bc51537b033665c976988fcb&v=4" width = "200" />](https://github.com/cishocksr) |       [<img src="https://avatars3.githubusercontent.com/u/52467406?s=460&v=4" width = "200" />](https://github.com/Haloking1212)        | [<img src="https://avatars3.githubusercontent.com/u/48919838?s=460&u=e630f239837924017af4d05ff297dd435af68ea8&v=4" width = "200" />](hhttps://github.com/NickGonzalez04) |
 |                                       [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/MileyWright)                                       |                                       [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Toniddarden)                                       |                                       [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/cishocksr)                                       |                        [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/Haloking1212)                        |                                       [<img src="https://github.com/favicon.ico" width="15"> ](https://github.com/NickGonzalez04)                                        |
@@ -29,7 +29,7 @@ You can find the deployed project at www.theMentorConnector.net.
 
 Conecting mentore to recent graduates across disciplins for mentoring opportunities. Mentee's can choose between a mentor's based upon profession, alma matar, or location.
 
-### 4️⃣ Key Features
+### Key Features
 
 - Secure login for both Mentor and Mentee
 - Search for Mentor based on profession, alma mater, and location
@@ -39,28 +39,39 @@ Conecting mentore to recent graduates across disciplins for mentoring opportunit
 
 ### Front end built using:
 
-#### React, Express, Postgree, Node
+- React
+- Redux
 
-🚫 Why did you choose this framework?
+Why did you choose this framework?
 
-- point one
-- point two
-- point three
-- point four
+- Easily expandable codebase
+- Redux running the state can easily expand
+- Component features of React make code easy to follow
 
 🚫List the rest of the front end features and libraries in the same format as the framework above.
 
+- Axios
+- Antd Css
+- React Router
+- Socket.io
+- Material UI
+
 #### Front end deployed to `www.thementorconnector.net`
 
-#### [Back end](🚫link to back end repo here) built using:
+#### [Back end](https://github.com/Lambda-School-Labs/my-mentor-be) built using:
 
-#### 🚫 back end framework goes here
+#### back end framework goes here
 
-- point one
-- point two
-- point three
+- NodeJS
+- Express
+- Postgres
 
-🚫 List the rest of the back end end features and libraries in the same format as the framework above
+List the rest of the back end end features and libraries in the same format as the framework above
+
+- Axios
+- Bcryptjs
+- knex
+- socket.io
 
 # APIs
 
@@ -120,22 +131,10 @@ In order for the app to function correctly, the user must set up their own envir
 | doodles.png    | Nicole Bennett   | [Creative Commons](https://www.toptal.com/designers/subtlepatterns/doodles/) |
 | rings.svg      | Sam Herbert      | [MIT](https://github.com/SamHerbert/SVG-Loaders)                             |
 
-# 4️⃣ Testing
+# Testing
 
-🚫Document what you used for testing and why
-
-# 4️⃣ Installation Instructions
-
-🚫explain how to install the required dependencies to get this project up and running with yarn and NPM
-
-## Other Scripts
-
-🚫replace these examples with your own
-
-    * typecheck - runs the TypeScript compiler
-    * build - creates a build of the application
-    * start - starts the production server after a build is created
-    * test - runs tests in **tests** directory \* eject - copy the configuration files and dependencies into the project so you have full control over them
+- Jest
+- React Testing Library
 
 # Contributing
 
@@ -176,4 +175,4 @@ These contribution guidelines have been adapted from [this good-Contributing.md-
 
 ## Documentation
 
-See [Backend Documentation](🚫*link to your backend readme here*) for details on the backend of our project.
+See [Backend Documentation](https://github.com/Lambda-School-Labs/my-mentor-be) for details on the backend of our project.
